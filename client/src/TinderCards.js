@@ -5,7 +5,7 @@ import axios from "./axios";
 
 function TinderCards() {
     const [people,setPeople] = useState([
-        axios.get("http://localhost:3001/meet-and-greet/cards")
+        axios.get("http://localhost:5000/meet-and-greet/cards")
         .then(req=>{
             setPeople(req.data);
         })
