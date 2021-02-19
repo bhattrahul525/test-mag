@@ -4,7 +4,7 @@ import cors from "cors";
 import Cards from "./dbCards.js";
 
 const app = express();
-const port = process.env.PORT ||3001;
+const port = process.env.PORT ||5000;
 const connection_url= 'mongodb+srv://test:test@cluster0.y6vf3.mongodb.net/Cluster0?retryWrites=true&w=majority';
 
 app.use(cors());
